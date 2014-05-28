@@ -34,3 +34,7 @@ Notes
 =====
 
 The scripts are poorly commented and the output is hardly human-readable. But they works. There are some other tricky situations that are not yet solved and marked in liftOver.py, but I think they are not important so maybe no further fix.
+
+More notes
+==========
+The chain file is directional. i.e. for the steps above you will only get a ms_chain.bed that can be used only for converting ms coordinates to mm. To make a chain for mm to ms, just need to swap the REF and ALT column in input VCF for Step 0.5.

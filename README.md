@@ -33,7 +33,7 @@ Usage
 Notes
 =====
 
-The scripts are poorly commented and the output is hardly human-readable. But they works. There are some other tricky situations that are not yet solved and marked in liftOver.py, but I think they are not important so maybe no further fix.
+The scripts are poorly commented and the output is hardly human-readable. But they work. There are some other tricky situations that are not yet solved and marked in liftOver.py, but I think they are not important so maybe no further fix.
 
 More notes
 ==========

@@ -31,7 +31,7 @@ import sys, re
 def format(line):
   """Determine input format. Return True if input is not the new format.
   """
-  new_pattern = "chr.+\t[0-9]+\t\+"
+  new_pattern = "[^\s]+\t[0-9]+\t\+"
   if re.match(new_pattern, line):
     return False
   else:
